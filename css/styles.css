@@ -1,4 +1,33 @@
 
+div#content{
+	background-color: #777;
+}
+
+div#content div{
+	display: inline-block;
+	width: 48%;
+}
+
+div#content div h1, p, iframe{
+	margin: 35px;
+}
+
+div#content div.leftbox{
+	background-color: yellow;
+	vertical-align: top;
+}
+
+
+div#content div.rightbox{
+	background-color: green;
+}
+
+div#content div.annonce{
+	background-color: purple;
+	width: 100%;
+	margin: 8px;
+}
+
 nav.menu-nav ul li.btn{
 	display: inline-block;
 	list-style-type: none;
@@ -15,6 +44,12 @@ nav.menu-nav ul li.btn:hover a{
 	color: red;
 	background-color: white;
 	transition: 0.5s all;
+}
+
+
+
+footer{
+	background-color: red;
 }
 
 /*p.welcome{
@@ -35,4 +70,3 @@ h2.headline{
 	font-size: 50px;
 	padding-left: 200px;
 }*/
-
